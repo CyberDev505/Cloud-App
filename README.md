@@ -42,7 +42,7 @@ Para clonar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 ## USO
 
-Se puede realizar el despliegue de una aplicación de manera rapida haciendo uso de este repositorio en general, las plantillas o modules base permiten con unos pequeños ajustes llevar a cabo el despliegue de la infraestructura necesaria. 
+Se puede realizar el despliegue de una aplicación de manera rapida haciendo uso de este repositorio en general, las plantillas o modulos base permiten con unos pequeños ajustes llevar a cabo el despliegue de la infraestructura necesaria. 
 
 ## ARQUITECTURA
 
