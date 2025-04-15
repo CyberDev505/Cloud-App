@@ -12,7 +12,7 @@ Este repositorio contiene el proyecto final del Bootcamp de Arquitectura en Nube
 
 ## Descripción
 
-**PRY-TalenTech** es un repositorio donde se encuentran tres carpetas principañes que contienen los codigos fuentes de la implementación.
+**Cloud-App** es un repositorio donde se encuentran tres carpetas principañes que contienen los codigos fuentes de la implementación.
 - CloudAPP: Donde esta el despliegue de la infraestructura de la aplicación. En APP hay un ejemplo de despliegue de un deployment, service y ingress en la infra base.
 - Modules: Se encuentran los modulos de terraform para el despliegue de la VPC, RDS y EKS. El modulo de la VPC esta local, los otros refieren a los modules de provider AWS para terraform.
 - Templates: Archivos de despliegue de la infraestructura por medio de los servicios de AWS CodeBuild y Codepipeline. 
