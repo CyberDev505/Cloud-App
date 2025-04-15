@@ -40,11 +40,7 @@ Para clonar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
    cd Cloud-App
 3. Clonar el repositorio:
    ```bash
-   git clone https://github.com/CyberDev505/Cloud-App.git
-
-   
-
-   
+   git clone https://github.com/CyberDev505/Cloud-App.git   
 4. Iniciar con los ajustes correspondientes. 
 
 
