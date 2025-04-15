@@ -36,7 +36,7 @@ Para clonar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
    git clone https://github.com/Sebastian26Git/PRY-TalenTech.git
 2. Navega al directorio del proyecto:
    ```bash
-   cd Cloud-App
+   cd /Cloud-App
 3. Inicar con los ajustes correspondientes. 
 
 
