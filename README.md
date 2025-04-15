@@ -33,7 +33,7 @@ Para clonar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/Sebastian26Git/PRY-TalenTech.git
+   git clone https://github.com/CyberDev505/Cloud-App.git
 2. Navega al directorio del proyecto:
    ```bash
    cd /Cloud-App
