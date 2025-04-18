@@ -1,6 +1,6 @@
 # Cloud-App - Arquitectura en la nube
 
-Este repositorio contiene el proyecto final del Bootcamp de Arquitectura en Nube. El repositorio tiene por nombre **PRY-TalenTech**, donde se encuentra la creación de la infraestructura en AWS base para el despliegue de una aplicación contenerizada en EKS.
+Este repositorio contiene el proyecto final del Bootcamp de Arquitectura en Nube. El repositorio tiene por nombre **Cloud-App**, donde se encuentra la creación de la infraestructura en AWS base para el despliegue de una aplicación contenerizada en EKS.
 
 ## Tabla de Contenidos
 
