@@ -1,55 +1,55 @@
-# Cloud-App - Arquitectura en la nube
+### Cloud-App – Cloud Architecture
 
-Este repositorio contiene el proyecto final del Bootcamp de Arquitectura en Nube. El repositorio tiene por nombre **Cloud-App**, donde se encuentra la creación de la infraestructura en AWS base para el despliegue de una aplicación contenerizada en EKS.
+This repository contains the final project of the Cloud Architecture Bootcamp. The repository is named Cloud-App, and it includes the creation of the base AWS infrastructure for deploying a containerized application on EKS.
 
-## Tabla de Contenidos
+### Table of Contents
 
-- [Descripción](#descripción)
-- [Requisitos Previos](#requisitos-previos)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Arquitectura](#Arquitectura-del-proyecto)
+- [Description](#description)
+- [Prerequisites](#Prerequisites)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Architecture](#Architecture)
 
-## Descripción
+### Description
 
-**Cloud-App** es un repositorio donde se encuentran tres carpetas principañes que contienen los codigos fuentes de la implementación.
-- CloudAPP: Donde esta el despliegue de la infraestructura de la aplicación. En APP hay un ejemplo de despliegue de un deployment, service y ingress en la infra base.
-- Modules: Se encuentran los modulos de terraform para el despliegue de la VPC, RDS y EKS. El modulo de la VPC esta local, los otros refieren a los modules de provider AWS para terraform.
-- Templates: Archivos de despliegue de la infraestructura por medio de los servicios de AWS CodeBuild y Codepipeline. 
+**Cloud-App** is a repository that contains three main folders with the source code for the implementation:
 
-En conjunto permiten la creación de la infraestructura base para la implementación del proyecto siguiendo las indicaciones entregadas.
+CloudAPP: Contains the deployment of the application infrastructure. Inside this folder, there is an example deployment of a Kubernetes deployment, service, and ingress on the base infrastructure.
 
-## Requisitos Previos
+Modules: Contains the Terraform modules for deploying the VPC, RDS, and EKS. The VPC module is local, while the others reference AWS provider modules for Terraform.
 
-Antes de ejecutar el proyecto, asegúrate de tener los siguientes requisitos instalados:
+Templates: Infrastructure deployment files using AWS CodeBuild and CodePipeline services.
 
-- [Requisito 1] - [Se debe contar con una cuenta en AWS]
-- [Requisito 2] - [Se debe tener un conocimiento base en terraform y AWS]
-- [Requisito 3] - [Hacer uso de los modulos y el codigo encontrado en este repositorio teniendo en cuenta los comentarios dentro del mismo para un uso efectivo]
+Together, these components enable the creation of the base infrastructure required for implementing the project, following the provided guidelines.
 
-## Instalación
+### Prerequisites
 
-Para clonar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
+Before running the project, make sure you have the following requirements installed or available:
 
+- [Requirement 1] - [An AWS account is required.]
+- [Requirement 2] - [Basic knowledge of Terraform and AWS is required.]
+- [Requirement 3] - [Use the modules and code found in this repository, taking into account the comments within the code for effective usage.]
 
-1. crear un directorio para trabjar en el proyecto.
+## Installation
+
+To clone and run this project on your local machine, follow these steps:
+
+1. Create a directory to work on the project.
    ```bash
    mkdir Cloud-App
-2. Moverse al directorio para trabjar en el proyecto.
+2. Move to the project directory.
    ```bash
    cd Cloud-App
-3. Clonar el repositorio:
+3. Clone the repository::
    ```bash
    git clone https://github.com/CyberDev505/Cloud-App.git   
-4. Iniciar con los ajustes correspondientes. 
+4. Start by applying the corresponding configurations
 
+## Usage
 
-## USO
+You can quickly deploy an application using this repository. The base templates or modules allow you to deploy the required infrastructure with minimal adjustments.
 
-Se puede realizar el despliegue de una aplicación de manera rapida haciendo uso de este repositorio en general, las plantillas o modules base permiten con unos pequeños ajustes llevar a cabo el despliegue de la infraestructura necesaria. 
+## Architecture
 
-## ARQUITECTURA
-
-La siguiente imagen muestra la arquitectura de la solución propuesta y desplegada por medio del codigo que se encuentra en este repositorio.
-
+The following image shows the architecture of the proposed solution, deployed using the code contained in this repository.
 ![Arquitectura CloudAPP](./Arquitectura/Arq-CloudAPP.png)
